@@ -1,6 +1,6 @@
 # chrome-github-contributions
 
-[![Github Contributions Table](https://raw.githubusercontent.com/salaikumar/chrome-github-contributions/master/icons/icon512.png)](https://chrome.google.com/webstore/detail/github-contributions/hnnbdaofndjgohiipggnpmcbmcobckik)
+[![Github Contributions Table](https://raw.githubusercontent.com/salaikumar/chrome-github-contributions/master/icons/icon256.png)](https://chrome.google.com/webstore/detail/github-contributions/hnnbdaofndjgohiipggnpmcbmcobckik)
 
 Our beloved table under the contributions calendar was recently removed from Github profile pages. This plugin brings back that numbers right where we want them.
 
