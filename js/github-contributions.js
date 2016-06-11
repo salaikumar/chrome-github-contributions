@@ -4,7 +4,7 @@ chrome.extension.sendMessage({}, function(response) {
     var commits = totalCommits();
 
     $("#contributions-calendar").append("<div class='contrib-column contrib-column-first table-column'><span class='text-muted'>Contributions in the last year</span><span class='contrib-number'>"+ new Intl.NumberFormat().format(commits) + " total</span><span class=text-muted>" + contribDateFormat(largest.epoch) + " - " + contribDateFormat(largest.end) + "</span></div>");
-    $("#contributions-calendar").append("<div class='contrib-column table-column'><span class='text-muted'>Longest streak</span><span class='contrib-number'>" + largest.streak + " days</span><span class='text-muted'>" + streakDateFormat(largest.lStart) + " to " + streakDateFormat(largest.lEnd) + "</span></div>");
+    $("#contributions-calendar").append("<div class='contrib-column table-column'><span class='text-muted'>Longest streak</span><span class='contrib-number'>" + largest.streak + " days</span><span class='text-muted'>" + streakDateFormat(largest.lStart) + " - " + streakDateFormat(largest.lEnd) + "</span></div>");
     $("#contributions-calendar").append("<div class='contrib-column table-column'><span class='text-muted'>Current Streak</span><span class='contrib-number'>" + largest.current + " days</span><span class='text-muted'>Last Contributed on " + currentStreakDateFormat(largest.end) + "</span></div>");
   });
 });
@@ -68,7 +68,7 @@ function largestStreak() {
     largestStartDate = startDate;
     largestEndDate = endDate;
   }
-  
+
   return {
     streak: largestStreak,
     epoch: start,
