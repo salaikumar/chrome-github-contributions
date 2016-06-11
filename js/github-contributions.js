@@ -51,7 +51,6 @@ function largestStreak() {
       currentStreak+=1;
     } else {
       endDate = prevDate;
-      // console.log("Current Streak is " + currentStreak + " from " + startDate + " to " + endDate);
       if (currentStreak > largestStreak) {
         largestStreak = currentStreak;
         largestStartDate = startDate;
@@ -64,14 +63,12 @@ function largestStreak() {
   });
 
   endDate = prevDate;
-  // console.log("Current Streak is " + currentStreak + " from " + startDate + " to " + endDate);
   if (currentStreak > largestStreak) {
     largestStreak = currentStreak;
     largestStartDate = startDate;
     largestEndDate = endDate;
   }
-
-// console.log("Largest Streak is " + largestStreak + " from " + largestStartDate + " to " + largestEndDate);
+  
   return {
     streak: largestStreak,
     epoch: start,
@@ -87,7 +84,6 @@ function totalCommits() {
   $.each($(".js-calendar-graph-svg g rect"), function(idx, elem) {
     var date = jQuery(elem).attr("data-date");
     var count = jQuery(elem).attr("data-count");
-    // console.log("Contributed " + count + " commits on " + date);
   });
 
   var totalContributions = 0;
@@ -95,6 +91,5 @@ function totalCommits() {
     var count = parseInt(jQuery(elem).attr("data-count"));
     totalContributions += count;
   });
-  // console.log("Total Contributions is " + totalContributions);
-  return totalContributions;  
+  return totalContributions;
 }

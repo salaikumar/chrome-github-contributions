@@ -7,6 +7,10 @@ Our beloved table under the contributions calendar was recently removed from Git
 ### Demo
 [![Github Contributions Table](https://raw.githubusercontent.com/salaikumar/chrome-github-contributions/master/docs/demo.png)](https://chrome.google.com/webstore/detail/github-contributions/hnnbdaofndjgohiipggnpmcbmcobckik)
 
+
+### Chrome-Store 
+It's available at Chrome store over [here] (https://chrome.google.com/webstore/detail/github-contributions/hnnbdaofndjgohiipggnpmcbmcobckik)
+
 ### Authors
 - Salaikumar ([@Saravanan1115](https://twitter.com/Saravanan1115))
 - Ashwanth Kumar ([@_ashwanthkumar](https://twitter.com/_ashwanthkumar))
