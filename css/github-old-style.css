@@ -1,0 +1,25 @@
+.contrib-column-first {
+  border-left: 0;
+}
+
+.contrib-column {
+  padding: 15px 0;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  font-size: 11px;
+  text-align: center;
+}
+
+.table-column {
+  display: table-cell;
+  width: 1%;
+  vertical-align: top;
+}
+
+.contrib-number {
+  font-weight: 300;
+  line-height: 1.3em;
+  font-size: 24px;
+  display: block;
+  color: #333;
+}
